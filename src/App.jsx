@@ -19,13 +19,9 @@ function App() {
           <h2>About Me</h2>
           <p>Nama saya Kiki, seorang siswa Teknik Jaringan Komputer yang sedang internship di perusahaan Brinks.</p>
           <p>
-            Saya memiliki keahlian dalam bidang jaringan komputer dan pemrograman web. Saya juga memiliki pengalaman
-            berkontribusi dalam proyek-proyek kecil dan bekerja dalam tim, serta kemampuan komunikasi yang baik. Saya
-            sangat antusias untuk belajar dan berkembang dalam bidang ini, dan saya yakin bahwa pengalaman internship
-            ini akan memberikan saya kesempatan untuk meningkatkan keterampilan dan pengetahuan saya. Saya sangat
-            bersyukur bisa dipertemukan dengan lingkungan kerja yang baik dan senior-senior yang siap membantu saya
-            dalam proses belajar ini, dan saya berharap dapat memberikan kontribusi yang positif bagi tim dan
-            perusahaan.
+            Saya memiliki keahlian dalam bidang jaringan komputer dan pemrograman web. Saya juga memiliki pengalaman berkontribusi dalam project-project kecil dan bekerja dalam tim, serta kemampuan komunikasi yang baik. Saya sangat antusias
+            untuk belajar dan berkembang dalam bidang ini, dan saya yakin bahwa pengalaman internship ini akan memberikan saya kesempatan untuk meningkatkan keterampilan dan pengetahuan saya. Saya sangat bersyukur bisa dipertemukan dengan
+            lingkungan kerja yang baik dan senior-senior yang siap membantu saya dalam proses belajar ini, dan saya berharap dapat memberikan kontribusi yang positif bagi tim dan perusahaan.
           </p>
         </div>
 
@@ -80,26 +76,18 @@ function App() {
           <ul>
             <li>Membuat portofolio di Visual Studio Code</li>
             <li>Menjadi vendor AC KAI</li>
-            <li>
-              Berpartisipasi dalam project internal saat internship (konfigurasi router, troubleshooting jaringan) di
-              Brinks
-            </li>
+            <li>Berpartisipasi dalam project internal saat internship (konfigurasi router, troubleshooting jaringan) di Brinks</li>
           </ul>
         </div>
 
         <div id="contact" className="card">
           <h2>Kontak</h2>
           <p>
-            Email:{" "}
-            <a href="mailto:rizkihamsori10@gmail.com">rizkihamsori10@gmail.com</a>
+            Email: <a href="mailto:rizkihamsori10@gmail.com">rizkihamsori10@gmail.com</a>
           </p>
           <p>
             Instagram:{" "}
-            <a
-              href="https://www.instagram.com/_rizkihamsori?igsh=cW5xZ3BuNnh1eWk3&utm_source=qr"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://www.instagram.com/_rizkihamsori?igsh=cW5xZ3BuNnh1eWk3&utm_source=qr" target="_blank" rel="noopener noreferrer">
               @_rizkihamsori
             </a>
           </p>
@@ -114,28 +102,13 @@ function App() {
         <div className="card">
           <h2>Sertifikat Saya</h2>
           <div className="gallery">
-            <img
-              src={sertifikat}
-              alt="Sertifikat Juara 1 Taekwondo"
-              className="sertifikat-img"
-            />
+            <img src={sertifikat} alt="Sertifikat Juara 1 Taekwondo" className="sertifikat-img" />
           </div>
         </div>
       </section>
 
       <footer>
-        &copy; 2025 Kiki, STECU{" "}
-        <div className="mb-3">
-          <label htmlFor="city-select" className="form-label">
-            City
-          </label>
-          <select className="form-select form-select-lg" id="city-select">
-            <option value="newdelhi">Select one</option>
-            <option value="newdelhi">New Delhi</option>
-            <option value="istanbul">Istanbul</option>
-            <option value="jakarta">Jakarta</option>
-          </select>
-        </div>
+        &copy; 2025 Kiki, STECU <div className="mb-3"></div>
       </footer>
     </>
   );
